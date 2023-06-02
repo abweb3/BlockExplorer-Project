@@ -1,0 +1,45 @@
+/* TokenTransfers.css */
+
+.token-transfers {
+    margin-top: 20px;
+  }
+  
+  .transfer-item {
+    background-color: var(--background-color);
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page-link {
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    margin: 0 4px;
+  }
+  
+  .page-link:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .page-link:focus {
+    box-shadow: none;
+  }
+  
+  .page-item.disabled .page-link {
+    color: var(--secondary-color);
+    pointer-events: none;
+    background-color: var(--background-color);
+    border-color: var(--secondary-color);
+  }
+  
